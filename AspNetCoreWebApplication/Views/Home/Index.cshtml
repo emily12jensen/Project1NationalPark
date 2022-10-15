@@ -1,8 +1,16 @@
-﻿@{
-    ViewData["Title"] = "Example app";
+@model List<Park>
+@{
+    ViewData["Title"] = "Home Page";
 }
-<a class="twitter-link" href="https://twitter.com/home/?status=I just hosted a website on AWS!"><img src="img/tweet.svg" /></a>
-<div class="text">
-    <h1>Congratulations!</h1>
-    <h2>@ViewData["Message"]</h2>
+
+<div class="text-center">
+    <h1 class="display-4">National Parks</h1>
 </div>
+
+@foreach (Park p in Model)
+{
+    <partial name="ParksSummary" model="p" />
+    // go look for Park Summary. Send "b"
+}
+<script>
+</script>
