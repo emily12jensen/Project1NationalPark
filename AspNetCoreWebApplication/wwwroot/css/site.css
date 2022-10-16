@@ -4,6 +4,12 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.col-2 {
+  -ms-flex: 0 0 16.666667%;
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
 .column {
     float: left;
     width: 50%;
