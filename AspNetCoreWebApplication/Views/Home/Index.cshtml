@@ -7,10 +7,13 @@
     <h1 class="display-4">National Parks</h1>
 </div>
 
-@foreach (Park p in Model)
-{
-    <partial name="ParksSummary" model="p" />
-    // go look for Park Summary. Send "b"
-}
+<div style="display: grid, grid-column: span 2 / span 2">
+    @foreach (Park p in Model)
+    {
+        <partial name="ParksSummary" model="p" />
+        // go look for Park Summary. Send "b"
+    }
+</div> 
+    
 <script>
 </script>
