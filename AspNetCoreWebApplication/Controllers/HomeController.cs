@@ -2,14 +2,14 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MySql.Data.MySqlClient;
-using NationalParks.Models;
+using AspNetCoreWebApplication.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NationalParks.Controllers
+namespace AspNetCoreWebApplication.Controllers
 {
     public class HomeController : Controller
     {
