@@ -1,6 +1,6 @@
 using System;
 
-namespace NationalParks.Models
+namespace AspNetCoreWebApplication.Models
 {
     public class ErrorViewModel
     {
